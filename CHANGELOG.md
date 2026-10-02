@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- `apm install` now writes flat hook command entries that omit `type` to `.claude/settings.json` as schema-valid `"type": "command"` handlers, including when merged next to a Claude-shaped hook file. Explicit handler types and other targets are unchanged; reinstall to refresh existing entries. (by @Parth-Vasave, #3130)
+- `apm install` now writes flat hook command entries that omit `type` to `.claude/settings.json` as schema-valid `"type": "command"` handlers, including when merged next to a Claude-shaped hook file. Explicit handler types and other targets are unchanged; reinstall to refresh existing entries. (by @Parth-Vasave, closes #3130, #3153)
 
 ## [0.33.0] - 2026-10-02
 
